@@ -22,769 +22,769 @@
         href="<?php echo base_url('application/modules/ordermanage/assets/css/pos_print.css'); ?>">
 
     <style>
-    @page {
+        @page {
 
-        size: auto;
-        /* auto is the initial value */
-
-
-
-        /* this affects the margin in the printer settings */
-
-        margin: 0mm 0 0mm 0;
-
-    }
+            size: auto;
+            /* auto is the initial value */
 
 
 
-    body {
+            /* this affects the margin in the printer settings */
 
-        /* this affects the margin on the content before sending to printer */
-
-        margin: 0px;
-
-    }
-
-    @media screen {
-
-        .header,
-        .footer {
-
-            display: none;
+            margin: 0mm 0 0mm 0;
 
         }
 
-    }
+
+
+        body {
+
+            /* this affects the margin on the content before sending to printer */
+
+            margin: 0px;
+
+        }
+
+        @media screen {
+
+            .header,
+            .footer {
+
+                display: none;
+
+            }
+
+        }
     </style>
 
     <style>
-    .mb-0 {
+        .mb-0 {
 
-        margin-bottom: 0;
+            margin-bottom: 0;
 
-    }
+        }
 
 
 
-    .my-50 {
+        .my-50 {
 
-        margin-top: 50px;
+            margin-top: 50px;
 
-        margin-bottom: 50px;
+            margin-bottom: 50px;
 
-    }
+        }
 
 
 
-    .my-0 {
+        .my-0 {
 
-        margin-top: 0;
+            margin-top: 0;
 
-        margin-bottom: 0;
+            margin-bottom: 0;
 
-    }
+        }
 
 
 
-    .my-5 {
+        .my-5 {
 
-        margin-top: 5px;
+            margin-top: 5px;
 
-        margin-bottom: 5px;
+            margin-bottom: 5px;
 
-    }
+        }
 
 
 
-    .mt-10 {
+        .mt-10 {
 
-        margin-top: 10px;
+            margin-top: 10px;
 
-    }
+        }
 
 
 
-    .mb-15 {
+        .mb-15 {
 
-        margin-bottom: 15px;
+            margin-bottom: 15px;
 
-    }
+        }
 
 
 
-    .mr-18 {
+        .mr-18 {
 
-        margin-right: 18px;
+            margin-right: 18px;
 
-    }
+        }
 
 
 
-    .mr-25 {
+        .mr-25 {
 
-        margin-right: 25px;
+            margin-right: 25px;
 
-    }
+        }
 
 
 
-    .mb-25 {
+        .mb-25 {
 
-        margin-bottom: 25px;
+            margin-bottom: 25px;
 
-    }
+        }
 
-    .h4,
-    .h5,
-    .h6,
-    h4,
-    h5,
-    h6 {
+        .h4,
+        .h5,
+        .h6,
+        h4,
+        h5,
+        h6 {
 
-        margin-top: 10px;
+            margin-top: 10px;
 
-        margin-bottom: 10px;
+            margin-bottom: 10px;
 
-    }
+        }
 
-    .login-wrapper {
+        .login-wrapper {
 
-        background: url(../img/bhojon/login-bg.jpg) no-repeat;
+            background: url(../img/bhojon/login-bg.jpg) no-repeat;
 
-        background-size: 100% 100%;
+            background-size: 100% 100%;
 
-        height: 100vh;
+            height: 100vh;
 
-        position: relative;
+            position: relative;
 
-        display: flex;
+            display: flex;
 
-        flex-direction: column;
+            flex-direction: column;
 
-        justify-content: center;
+            justify-content: center;
 
-        align-items: center;
+            align-items: center;
 
-    }
+        }
 
 
 
-    .login-wrapper:before {
+        .login-wrapper:before {
 
-        content: '';
+            content: '';
 
-        position: absolute;
+            position: absolute;
 
-        top: 0;
+            top: 0;
 
-        left: 0;
+            left: 0;
 
-        right: 0;
+            right: 0;
 
-        bottom: 0;
+            bottom: 0;
 
-        display: block;
+            display: block;
 
-        background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.5);
 
-    }
+        }
 
 
 
-    .login_box {
+        .login_box {
 
-        text-align: center;
+            text-align: center;
 
-        position: relative;
+            position: relative;
 
-        width: 400px;
+            width: 400px;
 
-        background: #343434;
+            background: #343434;
 
-        padding: 40px 30px;
+            padding: 40px 30px;
 
-        border-radius: 10px;
+            border-radius: 10px;
 
-    }
+        }
 
 
 
-    .login_box .form-control {
+        .login_box .form-control {
 
-        height: 60px;
+            height: 60px;
 
-        margin-bottom: 25px;
+            margin-bottom: 25px;
 
-        padding: 12px 25px;
+            padding: 12px 25px;
 
-    }
+        }
 
 
 
-    .btn-login {
+        .btn-login {
 
-        color: #fff;
+            color: #fff;
 
-        background-color: #45C203;
+            background-color: #45C203;
 
-        border-color: #45C203;
+            border-color: #45C203;
 
-        width: 100%;
+            width: 100%;
 
-        line-height: 45px;
+            line-height: 45px;
 
-        font-size: 17px;
+            font-size: 17px;
 
-    }
+        }
 
 
 
-    .btn-login:hover,
+        .btn-login:hover,
 
-    .btn-login:focus {
+        .btn-login:focus {
 
-        color: #fff;
+            color: #fff;
 
-        background-color: transparent;
+            background-color: transparent;
 
-        border-color: #fff;
+            border-color: #fff;
 
-    }
+        }
 
 
 
-    /*Bhojon List*/
+        /*Bhojon List*/
 
 
 
-    .invoice-card {
+        .invoice-card {
 
-        display: flex;
+            display: flex;
 
-        flex-direction: column;
+            flex-direction: column;
 
-        padding: 25px;
+            padding: 25px;
 
-        width: 300px;
+            width: 300px;
 
-        background-color: #fff;
+            background-color: #fff;
 
-        border-radius: 5px;
+            border-radius: 5px;
 
-        /* box-shadow: 0px 10px 30px 15px rgba(0, 0, 0, 0.05);*/
+            /* box-shadow: 0px 10px 30px 15px rgba(0, 0, 0, 0.05);*/
 
-        margin: 35px auto;
+            margin: 35px auto;
 
-    }
+        }
 
 
 
-    .invoice-head,
+        .invoice-head,
 
-    .invoice-card .invoice-title {
+        .invoice-card .invoice-title {
 
-        display: -webkit-flex;
+            display: -webkit-flex;
 
-        display: -moz-flex;
+            display: -moz-flex;
 
-        display: -ms-flex;
+            display: -ms-flex;
 
-        display: -o-flex;
+            display: -o-flex;
 
-        display: flex;
+            display: flex;
 
-        justify-content: space-between;
+            justify-content: space-between;
 
-        align-items: center;
+            align-items: center;
 
-    }
+        }
 
 
 
-    .invoice-head {
+        .invoice-head {
 
-        flex-direction: column;
+            flex-direction: column;
 
-        margin-bottom: 25px;
+            margin-bottom: 25px;
 
-    }
+        }
 
 
 
-    .invoice-card .invoice-title {
+        .invoice-card .invoice-title {
 
-        margin: 15px 0;
+            margin: 15px 0;
 
-    }
+        }
 
 
 
-    .invoice-title span {
+        .invoice-title span {
 
-        color: rgba(0, 0, 0, 0.4);
+            color: rgba(0, 0, 0, 0.4);
 
-    }
+        }
 
 
 
-    .invoice-details {
+        .invoice-details {
 
-        border-top: 0.5px dashed #747272;
+            border-top: 0.5px dashed #747272;
 
-        border-bottom: 0.5px dashed #747272;
+            border-bottom: 0.5px dashed #747272;
 
-    }
+        }
 
 
 
-    .invoice-list {
+        .invoice-list {
 
-        width: 100%;
+            width: 100%;
 
-        border-collapse: collapse;
+            border-collapse: collapse;
 
-        border-bottom: 1px dashed #858080;
+            border-bottom: 1px dashed #858080;
 
-    }
+        }
 
 
 
-    .invoice-list .row-data {
+        .invoice-list .row-data {
 
-        border-bottom: 1px dashed #858080;
+            border-bottom: 1px dashed #858080;
 
-        padding-bottom: 10px;
+            padding-bottom: 10px;
 
-        margin-bottom: 15px;
+            margin-bottom: 15px;
 
-    }
+        }
 
 
 
-    .invoice-list .row-data:last-child {
+        .invoice-list .row-data:last-child {
 
-        border-bottom: 0;
+            border-bottom: 0;
 
-        margin-bottom: 0;
+            margin-bottom: 0;
 
-    }
+        }
 
 
 
-    .invoice-list .heading {
+        .invoice-list .heading {
 
-        font-size: 16px;
+            font-size: 16px;
 
-        font-weight: 600;
+            font-weight: 600;
 
-        margin: 0;
+            margin: 0;
 
-    }
+        }
 
 
 
-    .invoice-list thead tr td {
+        .invoice-list thead tr td {
 
-        font-size: 15px;
+            font-size: 15px;
 
-        font-weight: 600;
+            font-weight: 600;
 
-        padding: 5px 0;
+            padding: 5px 0;
 
-    }
+        }
 
 
 
-    .invoice-list tbody tr td {
+        .invoice-list tbody tr td {
 
-        line-height: 25px;
+            line-height: 25px;
 
-    }
+        }
 
 
 
-    .row-data {
+        .row-data {
 
-        display: flex;
+            display: flex;
 
-        align-items: flex-start;
+            align-items: flex-start;
 
-        justify-content: space-between;
+            justify-content: space-between;
 
-        width: 100%;
+            width: 100%;
 
-    }
+        }
 
 
 
-    .middle-data {
+        .middle-data {
 
-        display: flex;
+            display: flex;
 
-        align-items: center;
+            align-items: center;
 
-        justify-content: center;
+            justify-content: center;
 
-    }
+        }
 
 
 
-    .item-info {
+        .item-info {
 
-        max-width: 200px;
+            max-width: 200px;
 
-    }
+        }
 
 
 
-    .item-title {
+        .item-title {
 
-        font-size: 14px;
+            font-size: 14px;
 
-        margin: 0;
+            margin: 0;
 
-        line-height: 19px;
+            line-height: 19px;
 
-        font-weight: 500;
+            font-weight: 500;
 
-    }
+        }
 
 
 
-    .item-size {
+        .item-size {
 
-        line-height: 19px;
+            line-height: 19px;
 
-    }
+        }
 
 
 
-    .item-size,
+        .item-size,
 
-    .item-number {
+        .item-number {
 
-        margin: 5px 0;
+            margin: 5px 0;
 
-    }
+        }
 
 
 
-    .invoice-footer {
+        .invoice-footer {
 
-        margin-top: 20px;
+            margin-top: 20px;
 
-    }
+        }
 
 
 
-    .gap_right {
+        .gap_right {
 
-        border-right: 1px solid #ddd;
+            border-right: 1px solid #ddd;
 
-        padding-right: 15px;
+            padding-right: 15px;
 
-        margin-right: 15px;
+            margin-right: 15px;
 
-    }
+        }
 
 
 
-    .b_top {
+        .b_top {
 
-        border-top: 1px solid #ddd;
+            border-top: 1px solid #ddd;
 
-        padding-top: 12px;
+            padding-top: 12px;
 
-    }
+        }
 
 
 
 
 
-    .food_item {
+        .food_item {
 
-        display: -webkit-flex;
+            display: -webkit-flex;
 
-        display: -moz-flex;
+            display: -moz-flex;
 
-        display: -ms-flex;
+            display: -ms-flex;
 
-        display: -o-flex;
+            display: -o-flex;
 
-        display: flex;
+            display: flex;
 
-        align-items: center;
+            align-items: center;
 
-        border: 1px solid #ddd;
+            border: 1px solid #ddd;
 
-        border-top: 5px solid #1DB20B;
+            border-top: 5px solid #1DB20B;
 
-        padding: 15px;
+            padding: 15px;
 
-        margin-bottom: 25px;
+            margin-bottom: 25px;
 
-        transition-duration: 0.4s;
+            transition-duration: 0.4s;
 
-    }
+        }
 
 
 
-    .bhojon_title {
+        .bhojon_title {
 
-        margin-top: 6px;
+            margin-top: 6px;
 
-        margin-bottom: 6px;
+            margin-bottom: 6px;
 
-        font-size: 14px;
+            font-size: 14px;
 
-    }
+        }
 
 
 
-    .food_item .img_wrapper {
+        .food_item .img_wrapper {
 
-        padding: 15px 5px;
+            padding: 15px 5px;
 
-        background-color: #ececec;
+            background-color: #ececec;
 
-        border-radius: 6px;
+            border-radius: 6px;
 
-        position: relative;
+            position: relative;
 
-        transition-duration: 0.4s;
+            transition-duration: 0.4s;
 
-    }
+        }
 
 
 
-    .food_item .table_info {
+        .food_item .table_info {
 
-        font-size: 11px;
+            font-size: 11px;
 
-        background: #1db20b;
+            background: #1db20b;
 
-        position: absolute;
+            position: absolute;
 
-        bottom: 0;
+            bottom: 0;
 
-        left: 0;
+            left: 0;
 
-        right: 0;
+            right: 0;
 
-        padding: 4px 8px;
+            padding: 4px 8px;
 
-        color: #fff;
+            color: #fff;
 
-        border-radius: 15px;
+            border-radius: 15px;
 
-        text-align: center;
+            text-align: center;
 
-    }
+        }
 
 
 
-    .food_item:focus,
+        .food_item:focus,
 
-    .food_item:hover {
+        .food_item:hover {
 
-        background-color: #383838;
+            background-color: #383838;
 
-    }
+        }
 
 
 
-    .food_item:focus .bhojon_title,
+        .food_item:focus .bhojon_title,
 
-    .food_item:hover .bhojon_title {
+        .food_item:hover .bhojon_title {
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
 
 
-    .food_item:hover .img_wrapper,
+        .food_item:hover .img_wrapper,
 
-    .food_item:focus .img_wrapper {
+        .food_item:focus .img_wrapper {
 
-        background-color: #383838;
+            background-color: #383838;
 
-    }
+        }
 
 
 
-    .btn-4 {
+        .btn-4 {
 
-        border-radius: 0;
+            border-radius: 0;
 
-        padding: 15px 22px;
+            padding: 15px 22px;
 
-        font-size: 16px;
+            font-size: 16px;
 
-        font-weight: 500;
+            font-weight: 500;
 
-        color: #fff;
+            color: #fff;
 
-        min-width: 130px;
+            min-width: 130px;
 
-    }
+        }
 
 
 
-    .btn-4.btn-green {
+        .btn-4.btn-green {
 
-        background-color: #1DB20B;
+            background-color: #1DB20B;
 
-    }
+        }
 
 
 
-    .btn-4.btn-green:focus,
+        .btn-4.btn-green:focus,
 
-    .btn-4.btn-green:hover {
+        .btn-4.btn-green:hover {
 
-        background-color: #3aa02d;
+            background-color: #3aa02d;
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
 
 
-    .btn-4.btn-blue {
+        .btn-4.btn-blue {
 
-        background-color: #115fc9;
+            background-color: #115fc9;
 
-    }
+        }
 
 
 
-    .btn-4.btn-blue:focus,
+        .btn-4.btn-blue:focus,
 
-    .btn-4.btn-blue:hover {
+        .btn-4.btn-blue:hover {
 
-        background-color: #305992;
+            background-color: #305992;
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
 
 
-    .btn-4.btn-sky {
+        .btn-4.btn-sky {
 
-        background-color: #1ba392;
+            background-color: #1ba392;
 
-    }
+        }
 
 
 
-    .btn-4.btn-sky:focus,
+        .btn-4.btn-sky:focus,
 
-    .btn-4.btn-sky:hover {
+        .btn-4.btn-sky:hover {
 
-        background-color: #0dceb6;
+            background-color: #0dceb6;
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
 
 
-    .btn-4.btn-paste {
+        .btn-4.btn-paste {
 
-        background-color: #0b6240;
+            background-color: #0b6240;
 
-    }
+        }
 
 
 
-    .btn-4.btn-paste:hover,
+        .btn-4.btn-paste:hover,
 
-    .btn-4.btn-paste:focus {
+        .btn-4.btn-paste:focus {
 
-        background-color: #209c6c;
+            background-color: #209c6c;
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
 
 
-    .btn-4.btn-red {
+        .btn-4.btn-red {
 
-        background-color: #eb0202;
+            background-color: #eb0202;
 
-    }
+        }
 
 
 
-    .btn-4.btn-red:focus,
+        .btn-4.btn-red:focus,
 
-    .btn-4.btn-red:hover {
+        .btn-4.btn-red:hover {
 
-        background-color: #ff3b3b;
+            background-color: #ff3b3b;
 
-        color: #fff;
+            color: #fff;
 
-    }
+        }
 
-    .text-center {
+        .text-center {
 
-        text-align: center;
+            text-align: center;
 
-    }
+        }
 
-    .border-top {
-        border-top: 2px dashed #858080;
+        .border-top {
+            border-top: 2px dashed #858080;
 
-        background: #ececec;
-    }
+            background: #ececec;
+        }
 
-    .text-bold {
-        font-weight: bold !important;
-    }
+        .text-bold {
+            font-weight: bold !important;
+        }
 
-    .duchnumber {
-        font-size: 12px;
-        margin-top: 1px;
-    }
+        .duchnumber {
+            font-size: 12px;
+            margin-top: 1px;
+        }
 
-    .ftable1 {
-        margin-left: 90px;
-        margin-top: -20px;
-    }
+        .ftable1 {
+            margin-left: 50px;
+            margin-top: -20px;
+        }
 
-    .tableitem {
-        font-weight: bold;
-    }
+        .tableitem {
+            font-weight: bold;
+        }
 
-    .sectable {
-        width: 100px;
-    }
+        .sectable {
+            width: 100px;
+        }
 
-    .invoice-detailsbottom {
+        .invoice-detailsbottom {
 
-        border-bottom: 0.5px dashed #747272;
+            border-bottom: 0.5px dashed #747272;
 
-    }
+        }
 
-    .thirtable {
-        margin-left: 120px;
-        font-size: 15px;
-    }
+        .thirtable {
+            margin-left: 120px;
+            font-size: 15px;
+        }
 
-    .item-title2 {
+        .item-title2 {
 
-        font-size: 16px;
+            font-size: 16px;
 
-        margin: 0;
+            margin: 0;
 
-        line-height: 19px;
+            line-height: 19px;
 
-        font-weight: 520;
+            font-weight: 520;
 
-    }
+        }
     </style>
 
 </head>
@@ -835,8 +835,10 @@
                                         </span>
                                     </h5>
                                     <h5 class="item-title">
-                                        <span class="tableitem" style="margin-left: -16px;"> Customer :</span>
-                                        <span>Cash</span>
+                                        <span class="tableitem" style="margin-left:-10px ;"> Customer :</span>
+                                        <span>
+                                            Card
+                                        </span>
                                     </h5>
 
                                 </div>
@@ -847,10 +849,10 @@
 
                                     <h5 class="item-title">
                                         <span style="font-weight:bold">
-                                            <?php echo display('orderno') ?>:
+                                            Invoice No:
                                         </span>
                                         <span>
-                                            <?php echo $orderinfo->order_id; ?>
+                                            <?php echo $orderinfo->saleinvoice; ?>
                                         </span>
                                     </h5>
 
@@ -996,31 +998,31 @@
                             $subtotal = $subtotal + $itemprice;
 
                             ?>
-                        <tr align="left">
+                            <tr align="left">
 
-                            <td>
-                                <?php echo $item->ProductName; ?>
+                                <td>
+                                    <?php echo $item->ProductName; ?>
 
-                            </td>
-                            <td>
-                                <?php echo $item->menuqty; ?>
+                                </td>
+                                <td>
+                                    <?php echo $item->menuqty; ?>
 
-                            </td>
-                            <td>
-                                <?php echo $singleprice; ?>
-                            </td>
-                            <td>
-                                <?php echo $discount; ?>
-                            </td>
-                            <td class="" align="right">
+                                </td>
+                                <td>
+                                    <?php echo $singleprice; ?>
+                                </td>
+                                <td>
+                                    <?php echo $discount; ?>
+                                </td>
+                                <td class="" align="right">
 
-                                <?php echo $itemprice; ?>
-                                <?php if ($currency->position == 2) {
+                                    <?php echo $itemprice; ?>
+                                    <?php if ($currency->position == 2) {
                                         echo $currency->curr_icon;
                                     } ?>
-                            </td>
-                        </tr>
-                        <?php
+                                </td>
+                            </tr>
+                            <?php
 
                             if (!empty($item->add_on_id)) {
 
@@ -1033,7 +1035,7 @@
                                     $adonsprice = $adonsprice + $adonsinfo->price * $addonsqty[$y]; ?>
 
 
-                        <?php $y++;
+                                    <?php $y++;
 
                                 }
 
@@ -1126,32 +1128,32 @@
 
                 <?php if (empty($taxinfos)) { ?>
 
-                <div class="row-data">
+                    <div class="row-data">
 
-                    <div class="item-info">
+                        <div class="item-info">
 
-                        <h5 class="item-title">
-                            <?php echo display('vat_tax') ?>(
-                            <?php echo $storeinfo->vat; ?>%)
+                            <h5 class="item-title">
+                                <?php echo display('vat_tax') ?>(
+                                <?php echo $storeinfo->vat; ?>%)
+                            </h5>
+
+                        </div>
+
+                        <h5 class="my-5">
+
+                            <?php if ($currency->position == 1) {
+                                echo $currency->curr_icon;
+                            } ?>
+
+                            <?php echo $calvat; ?>
+
+                            <?php if ($currency->position == 2) {
+                                echo $currency->curr_icon;
+                            } ?>
+
                         </h5>
 
                     </div>
-
-                    <h5 class="my-5">
-
-                        <?php if ($currency->position == 1) {
-                                echo $currency->curr_icon;
-                            } ?>
-
-                        <?php echo $calvat; ?>
-
-                        <?php if ($currency->position == 2) {
-                                echo $currency->curr_icon;
-                            } ?>
-
-                    </h5>
-
-                </div>
 
                 <?php } else {
 
@@ -1167,33 +1169,33 @@
 
                             ?>
 
-                <div class="row-data">
+                            <div class="row-data">
 
-                    <div class="item-info">
+                                <div class="item-info">
 
-                        <h5 class="item-title">
-                            <?php echo $mvat['tax_name']; ?>
-                        </h5>
+                                    <h5 class="item-title">
+                                        <?php echo $mvat['tax_name']; ?>
+                                    </h5>
 
-                    </div>
+                                </div>
 
-                    <h5 class="my-5">
+                                <h5 class="my-5">
 
-                        <?php if ($currency->position == 1) {
+                                    <?php if ($currency->position == 1) {
                                         echo $currency->curr_icon;
                                     } ?>
 
-                        <?php echo $taxinfo->$fieldname; ?>
+                                    <?php echo $taxinfo->$fieldname; ?>
 
-                        <?php if ($currency->position == 2) {
+                                    <?php if ($currency->position == 2) {
                                         echo $currency->curr_icon;
                                     } ?>
 
-                    </h5>
+                                </h5>
 
-                </div>
+                            </div>
 
-                <?php $i++;
+                            <?php $i++;
                         }
                     }
                 } ?>
@@ -1292,51 +1294,51 @@
 
                 if ($billinfo->bill_status == 1) { ?>
 
-                <div class="row-data">
+                    <div class="row-data">
 
-                    <div class="item-info">
+                        <div class="item-info">
 
-                        <h5 class="item-title">
-                            <?php echo display('customer_paid_amount') ?>
+                            <h5 class="item-title">
+                                <?php echo display('customer_paid_amount') ?>
+                            </h5>
+
+                        </div>
+
+                        <h5 class="my-5">
+                            <?php if ($currency->position == 1) {
+                                echo $currency->curr_icon;
+                            } ?>
+                            <?php echo $customepaid; ?>
+                            <?php if ($currency->position == 2) {
+                                echo $currency->curr_icon;
+                            } ?>
                         </h5>
 
                     </div>
-
-                    <h5 class="my-5">
-                        <?php if ($currency->position == 1) {
-                                echo $currency->curr_icon;
-                            } ?>
-                        <?php echo $customepaid; ?>
-                        <?php if ($currency->position == 2) {
-                                echo $currency->curr_icon;
-                            } ?>
-                    </h5>
-
-                </div>
 
                 <?php } else { ?>
 
-                <div class="row-data">
+                    <div class="row-data">
 
-                    <div class="item-info">
+                        <div class="item-info">
 
-                        <h5 class="item-title">
-                            <?php echo display('total_due') ?>
+                            <h5 class="item-title">
+                                <?php echo display('total_due') ?>
+                            </h5>
+
+                        </div>
+
+                        <h5 class="my-5">
+                            <?php if ($currency->position == 1) {
+                                echo $currency->curr_icon;
+                            } ?>
+                            <?php echo $customepaid; ?>
+                            <?php if ($currency->position == 2) {
+                                echo $currency->curr_icon;
+                            } ?>
                         </h5>
 
                     </div>
-
-                    <h5 class="my-5">
-                        <?php if ($currency->position == 1) {
-                                echo $currency->curr_icon;
-                            } ?>
-                        <?php echo $customepaid; ?>
-                        <?php if ($currency->position == 2) {
-                                echo $currency->curr_icon;
-                            } ?>
-                    </h5>
-
-                </div>
 
                 <?php } ?>
 
