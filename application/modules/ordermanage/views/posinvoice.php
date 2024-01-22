@@ -785,6 +785,11 @@
             font-weight: 520;
 
         }
+
+        .imgposinvoicelogo {
+            width: 150px;
+            height: 150px;
+        }
     </style>
 
 </head>
@@ -801,7 +806,8 @@
 
             <div class="invoice-head">
 
-                <img src="<?php echo base_url(); ?><?php echo (file_exists($comsettinginfo->invoice_logo) ? $comsettinginfo->invoice_logo : 'application/modules/ordermanage/assets/images/dum_ordermanage_ivc.png') ?>"
+                <img class="imgposinvoicelogo"
+                    src="<?php echo base_url(); ?><?php echo (file_exists($comsettinginfo->invoice_logo) ? $comsettinginfo->invoice_logo : 'application/modules/ordermanage/assets/images/dum_ordermanage_ivc.png') ?>"
                     alt="">
 
                 <h4>
@@ -837,7 +843,7 @@
                                     <h5 class="item-title">
                                         <span class="tableitem" style="margin-left:-10px ;"> Customer :</span>
                                         <span>
-                                            Card
+                                            <?php echo $paymentMethod->$paymentMethod ?>
                                         </span>
                                     </h5>
 

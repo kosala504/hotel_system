@@ -6,7 +6,10 @@
 
             <div class="modal-header">
 
-                <strong><?php echo display('orderid');?><?php echo display('can_ord');?></strong>
+                <strong>
+                    <?php echo display('orderid'); ?>
+                    <?php echo display('can_ord'); ?>
+                </strong>
 
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -24,8 +27,9 @@
 
                                 <div class="form-group row">
 
-                                    <label for="payments"
-                                        class="col-sm-4 col-form-label"><?php echo display('orderid');?> </label>
+                                    <label for="payments" class="col-sm-4 col-form-label">
+                                        <?php echo display('orderid'); ?>
+                                    </label>
 
                                     <div class="col-sm-7 customesl mt-2">
 
@@ -39,8 +43,9 @@
 
                                 <div class="form-group row">
 
-                                    <label for="canreason"
-                                        class="col-sm-4 col-form-label"><?php echo display('cancel_reason');?></label>
+                                    <label for="canreason" class="col-sm-4 col-form-label">
+                                        <?php echo display('cancel_reason'); ?>
+                                    </label>
 
                                     <div class="col-sm-7 customesl">
 
@@ -55,8 +60,9 @@
 
                                     <div class="col-sm-11 pr-0">
 
-                                        <button type="button" class="btn btn-success w-md m-b-5"
-                                            id="cancelreason"><?php echo display('submit');?></button>
+                                        <button type="button" class="btn btn-success w-md m-b-5" id="cancelreason">
+                                            <?php echo display('submit'); ?>
+                                        </button>
 
                                     </div>
 
@@ -106,7 +112,9 @@
 
                 <fieldset class=" p-2">
 
-                    <legend class="w-auto"><?php echo $title; ?></legend>
+                    <legend class="w-auto">
+                        <?php echo $title; ?>
+                    </legend>
 
                 </fieldset>
 
@@ -120,23 +128,41 @@
 
                                 <tr>
 
-                                    <th class="text-center"><?php echo display('sl')?> </th>
+                                    <th class="text-center">
+                                        <?php echo display('sl') ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('invoice_no');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('invoice_no'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('customer_name');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('customer_name'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('waiter');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('waiter'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('table');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('table'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('state');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('state'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('ordate');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('ordate'); ?>
+                                    </th>
 
-                                    <th class="text-right"><?php echo display('amount');?></th>
+                                    <th class="text-right">
+                                        <?php echo display('amount'); ?>
+                                    </th>
 
-                                    <th class="text-center"><?php echo display('action');?></th>
+                                    <th class="text-center">
+                                        <?php echo display('action'); ?>
+                                    </th>
 
                                 </tr>
 
