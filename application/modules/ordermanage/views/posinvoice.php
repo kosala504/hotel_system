@@ -843,7 +843,7 @@
                                     <h5 class="item-title">
                                         <span class="tableitem" style="margin-left:-10px ;"> Customer :</span>
                                         <span>
-                                            <?php echo $paymentMethod->$paymentMethod ?>
+                                            <?php echo $paytype->paymentmethod ?>
                                         </span>
                                     </h5>
 
