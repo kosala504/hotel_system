@@ -1,16 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $active_group = 'default';
 $query_builder = TRUE;
 $active_record = TRUE;//ci version 3.1.11
 
 $db['default'] = array(
-    'dsn'   => '',
+    'dsn' => '',
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'hikkaduwa',
+    'database' => 'cfsgloba_demonygrh',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
